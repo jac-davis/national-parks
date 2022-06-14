@@ -1,27 +1,16 @@
-class Rank:
+Future Functionality(low_level):
+1. Add a class for the get_average_rank function that lets you have an easier input. Instead of having to call the
+get_dict function first, let you input like just the blog names from the first column in the csv file.
 
-Methods:
-1. Method that creates a rank from a blog. This will basically clean the blog so it is ready to be analyzed.
-2. Method that adds the results from that blog to the main rank.
-3. You can either use a for loop to do this through all of the blogs in a csv file
-4. Or you can pick and choose which blogs you want to be as a part of the rank.
 
-Future Functionality/game idea:
-- I can make it a game where you get points not for how many national parks you visit, but the more obscure ones are worth more points.
+Hike/National Park Tracking App:
+- I can make it a game where you get points. Ways to get points:
+1. Visiting a park 
+2. Completing a hike in a park (points calculated by difficulty [ex: distance and elevation])
+3. Badges for hiking certain distance, certain number of hikes, certain num of parks visited
+- Each park visit and hike lets you add photos, and you can upload them to a scrapbook app and print a book (kind of like chatbooks)
 
+- Create a park class, and then a hike class within it. Each park is an instance, and then you can add hikes per park and add pictures per hike.
 
 WAY Advanced functionality:
 - get it to use a map and calculate the distance to each park.
-
-
-IDEA!
-- Make a national parks scrapbook app that let's you add a picture for the main hikes/activities in the park. 
-- so each park is an instance, and then you can add hikes per park and add pictures per park.
-- Hikes have different point values depending on the distance and elevation rating.
-- Can compete with friends to get the most points and document all your hikes along the way.
-- you can add additional hikes outside of national parks as bonus points if you want.
-- bonus points if you hit certain milestones of certain # of parks visited.
-- bonus points for how many you visited in a certain time frame.
-- ability to upload to something like chatbooks and print a sort of scrapbook for your adventures.
-
-
