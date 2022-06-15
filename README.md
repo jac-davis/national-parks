@@ -4,7 +4,7 @@ Web-scraping tool to clean and create the “Ultimate U.S. National Parks Rank�
 
 ## What does this project do?
 
-1.	Web-scrapes U.S. national park rankings from various travel bloggers websites.
+1.	Web-scrapes U.S. national park rankings from various travel-blogger websites.
 2.	Cleans the data for accurate comparison of rankings between blogs.
 3.	Merges the different rankings from each blog to create a complete rank for all 63 U.S. national parks.
 
@@ -46,9 +46,9 @@ Manually create an instance of the Blog_Rank class for the blog you want to clea
 The get_average_rank function takes a list of cleaned dictionaries as an input. To use this function in option 2, run the .get_dict() method on your blog instance from Blog_Rank. Then, .append() each instance you want to use in your ultimate rank to a new list. The new list will be the input for your function.
 
 ## Main Learning Take-aways:
-1. Creating projects you are passionate about makes programming so much more enjoyable. Right after I came up with this project idea, I spent 5 hours straight on a Saturday working on this project. Time flew by and I knew programming was something I could continue learning for the long-haul.
-2. You don’t have to know everything. I came up with this web-scraping project before I even knew how to web-scrape or even access the HTML tags on a webpage. I learned how web-scraping worked in an afternoon from Codecademy and lots of Google searches/Youtube videos. I learned more by tackling a project I wasn’t sure I could complete rather than sticking with something simple that didn’t challenge me.
-3. Be proud of what you’ve created, even if it isn’t perfect. This program is simple and still flawed, but it is in the possibilities of what functionality can be added in the future where growth and learning will continue
+1. ***Creating projects you are passionate about makes programming so much more enjoyable.*** Right after I came up with this project idea, I spent 5 hours straight on a Saturday working on this project. Time flew by and I knew programming was something I could continue learning for the long-haul.
+2. ***You don’t have to know everything.*** I came up with this web-scraping project before I even knew how to web-scrape or even access the HTML tags on a webpage. I learned how web-scraping worked in an afternoon from Codecademy and lots of Google searches/Youtube videos. I learned more by tackling a project I wasn’t sure I could complete rather than sticking with something simple that didn’t challenge me.
+3. ***Be proud of what you’ve created, even if it isn’t perfect.*** This program is simple and still flawed, but it is in the possibilities of what functionality can be added in the future where growth and learning will continue
 
 ![IMG_0147](https://user-images.githubusercontent.com/104480294/173732762-69a06290-c162-4626-b10e-e34a59fe3094.jpeg)
 
